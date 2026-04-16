@@ -1,0 +1,32 @@
+{
+  "name": "phantom-mint",
+  "version": "0.1.0",
+  "author": "PhantomOS Team",
+  "colors": {
+    "bg_primary": "#2D2D2D",
+    "bg_secondary": "#3D3D3D",
+    "fg_primary": "#F5F5F5",
+    "fg_secondary": "#B0B0B0",
+    "accent": "#26A269",
+    "accent_alt": "#2EC27E",
+    "warning": "#F5C211",
+    "error": "#E01B24",
+    "success": "#26A269"
+  },
+  "fonts": {
+    "ui": "Inter, sans-serif",
+    "mono": "JetBrains Mono, monospace"
+  },
+  "borders": {
+    "radius": "8px",
+    "width": "1px"
+  },
+  "spacing": {
+    "base": "8px",
+    "padding": "12px"
+  },
+  "effects": {
+    "shadow": "0 2px 8px rgba(0,0,0,0.3)",
+    "transitions": "0.2s ease"
+  }
+}

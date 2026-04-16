@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "extension_api": "1.0",
+  "capabilities": {
+    "ui": ["panel", "widget", "notification", "tray"],
+    "system": ["fs", "process", "network", "privacy"],
+    "ai": ["terminal", "completion", "voice"]
+  },
+  "manifest": {
+    "name": "Example Extension",
+    "description": "Sample extension for PhantomShell",
+    "author": "PhantomOS Team",
+    "permissions": ["ui.panel", "system.fs.read"],
+    "entry_point": "index.js"
+  }
+}

@@ -1,0 +1,22 @@
+:root {
+  --bg-primary: #2D2D2D;
+  --bg-secondary: #3D3D3D;
+  --fg-primary: #F5F5F5;
+  --fg-secondary: #B0B0B0;
+  --accent: #26A269;
+  --accent-alt: #2EC27E;
+  --warning: #F5C211;
+  --error: #E01B24;
+  --success: #26A269;
+}
+
+window, waybar, mako {
+  background: var(--bg-primary);
+  color: var(--fg-primary);
+  font-family: Inter, sans-serif;
+}
+
+button, input {
+  border-radius: 8px;
+  border: 1px solid var(--accent);
+}

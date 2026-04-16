@@ -1,0 +1,32 @@
+{
+  "name": "phantom-light",
+  "version": "0.1.0",
+  "author": "PhantomOS Team",
+  "colors": {
+    "bg_primary": "#FAFAFA",
+    "bg_secondary": "#EEEEEE",
+    "fg_primary": "#1A1A1A",
+    "fg_secondary": "#666666",
+    "accent": "#1B8553",
+    "accent_alt": "#26A269",
+    "warning": "#C68A00",
+    "error": "#C01020",
+    "success": "#1B8553"
+  },
+  "fonts": {
+    "ui": "Inter, sans-serif",
+    "mono": "JetBrains Mono, monospace"
+  },
+  "borders": {
+    "radius": "10px",
+    "width": "1px"
+  },
+  "spacing": {
+    "base": "8px",
+    "padding": "14px"
+  },
+  "effects": {
+    "shadow": "0 2px 12px rgba(0,0,0,0.08)",
+    "transitions": "0.15s ease"
+  }
+}

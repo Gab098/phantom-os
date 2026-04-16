@@ -1,0 +1,50 @@
+# PhantomOS Mako Notification Daemon Configuration
+
+# Appearance
+font=Inter 11
+background-color=#2D2D2Dee
+text-color=#F5F5F5
+border-color=#26A269
+border-size=2
+border-radius=10
+padding=12
+margin=10
+width=350
+height=120
+icon-path=/usr/share/icons/hicolor
+max-icon-size=48
+
+# Behavior
+default-timeout=5000
+ignore-timeout=0
+max-visible=4
+layer=overlay
+anchor=top-right
+
+# Grouping
+group-by=app-name
+
+# Urgency overrides
+[urgency=low]
+background-color=#2D2D2Dcc
+border-color=#3D3D3D
+default-timeout=3000
+
+[urgency=high]
+background-color=#2D2D2Dee
+border-color=#E01B24
+text-color=#F5F5F5
+default-timeout=0
+
+[urgency=critical]
+background-color=#E01B24ee
+border-color=#FF6B6B
+text-color=#FFFFFF
+default-timeout=0
+
+# App-specific
+[app-name="PhantomAgent"]
+border-color=#2EC27E
+
+[app-name="phantom-privacy"]
+border-color=#F5C211

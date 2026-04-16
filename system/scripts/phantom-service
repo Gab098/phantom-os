@@ -1,0 +1,32 @@
+#!/bin/bash
+case "$1" in
+  start)
+    echo "Starting PhantomOS services..."
+    systemctl start tor
+    systemctl start libvirtd
+    systemctl start phantom-ai
+    echo "Done."
+    ;;
+  stop)
+    echo "Stopping PhantomOS services..."
+    systemctl stop phantom-ai
+    systemctl stop libvirtd
+    systemctl stop tor
+    echo "Done."
+    ;;
+  restart)
+    $0 stop
+    $0 start
+    ;;
+  status)
+    echo "PhantomOS System Status"
+    echo "========================"
+    systemctl is-active tor && echo "Tor: RUNNING" || echo "Tor: STOPPED"
+    systemctl is-active libvirtd && echo "Libvirt: RUNNING" || echo "Libvirt: STOPPED"
+    systemctl is-active phantom-ai && echo "AI Agent: RUNNING" || echo "AI Agent: STOPPED"
+    ;;
+  *)
+    echo "Usage: $0 {start|stop|restart|status}"
+    exit 1
+    ;;
+esac

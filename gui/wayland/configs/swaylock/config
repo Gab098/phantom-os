@@ -1,0 +1,45 @@
+# PhantomOS Swaylock Configuration
+# Lock screen with mint-themed visuals
+
+ignore-empty-password
+show-failed-attempts
+
+# Colors
+color=1e1e2eff
+bs-hl-color=e01b24ff
+key-hl-color=26a269ff
+separator-color=00000000
+text-color=f5f5f5ff
+text-clear-color=f5f5f5ff
+text-caps-lock-color=f5c211ff
+text-ver-color=f5f5f5ff
+text-wrong-color=e01b24ff
+
+# Inside ring (idle)
+inside-color=1e1e2ebb
+inside-clear-color=1e1e2ebb
+inside-caps-lock-color=1e1e2ebb
+inside-ver-color=1e1e2ebb
+inside-wrong-color=1e1e2ebb
+
+# Ring
+ring-color=3d3d3dff
+ring-clear-color=2ec27eff
+ring-caps-lock-color=f5c211ff
+ring-ver-color=26a269ff
+ring-wrong-color=e01b24ff
+
+# Layout
+indicator-radius=120
+indicator-thickness=10
+line-uses-inside
+line-uses-ring
+
+# Font
+font=Inter
+font-size=24
+
+# Misc
+daemonize
+grace=2
+fade-in=0.3

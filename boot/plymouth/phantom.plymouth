@@ -1,0 +1,12 @@
+#!/bin/bash
+# PhantomOS Plymouth Theme — Minimal boot splash
+# Install to /usr/share/plymouth/themes/phantom/
+
+[Plymouth Theme]
+Name=PhantomOS
+Description=Minimal PhantomOS boot splash with animated logo
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/phantom
+ScriptFile=/usr/share/plymouth/themes/phantom/phantom.script

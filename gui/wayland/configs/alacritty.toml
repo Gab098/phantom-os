@@ -1,0 +1,132 @@
+# PhantomOS Alacritty Configuration
+# Mint-themed terminal with transparency and JetBrains Mono
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding = { x = 12, y = 10 }
+decorations = "None"
+opacity = 0.92
+blur = true
+startup_mode = "Windowed"
+title = "PhantomTerminal"
+dynamic_title = true
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[font]
+size = 12.0
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Bold Italic"
+
+# PhantomOS Mint color scheme
+[colors.primary]
+background = "#1E1E2E"
+foreground = "#F5F5F5"
+
+[colors.cursor]
+text    = "#1E1E2E"
+cursor  = "#26A269"
+
+[colors.vi_mode_cursor]
+text    = "#1E1E2E"
+cursor  = "#2EC27E"
+
+[colors.selection]
+text       = "#F5F5F5"
+background = "#3D5A4A"
+
+[colors.search.matches]
+foreground = "#1E1E2E"
+background = "#2EC27E"
+
+[colors.search.focused_match]
+foreground = "#1E1E2E"
+background = "#26A269"
+
+[colors.footer_bar]
+foreground = "#1E1E2E"
+background = "#26A269"
+
+# Normal colors
+[colors.normal]
+black   = "#2D2D2D"
+red     = "#E01B24"
+green   = "#26A269"
+yellow  = "#F5C211"
+blue    = "#3584E4"
+magenta = "#9141AC"
+cyan    = "#2190A4"
+white   = "#F5F5F5"
+
+# Bright colors
+[colors.bright]
+black   = "#5E5E5E"
+red     = "#FF6B6B"
+green   = "#2EC27E"
+yellow  = "#F8E45C"
+blue    = "#62A0EA"
+magenta = "#C061CB"
+cyan    = "#5BC8AF"
+white   = "#FFFFFF"
+
+# Dim colors
+[colors.dim]
+black   = "#1A1A1A"
+red     = "#A01018"
+green   = "#1B7048"
+yellow  = "#A8850E"
+blue    = "#245A9E"
+magenta = "#632D75"
+cyan    = "#16626F"
+white   = "#B0B0B0"
+
+[cursor]
+style       = { shape = "Block", blinking = "On" }
+blink_interval = 750
+unfocused_hollow = true
+
+[mouse]
+hide_when_typing = true
+
+[[keyboard.bindings]]
+key    = "V"
+mods   = "Control|Shift"
+action = "Paste"
+
+[[keyboard.bindings]]
+key    = "C"
+mods   = "Control|Shift"
+action = "Copy"
+
+[[keyboard.bindings]]
+key    = "Plus"
+mods   = "Control"
+action = "IncreaseFontSize"
+
+[[keyboard.bindings]]
+key    = "Minus"
+mods   = "Control"
+action = "DecreaseFontSize"
+
+[[keyboard.bindings]]
+key    = "Key0"
+mods   = "Control"
+action = "ResetFontSize"

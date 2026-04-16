@@ -1,0 +1,8 @@
+{
+  "profile": "default",
+  "rules": {
+    "incoming": "DROP",
+    "outgoing": "ACCEPT",
+    "allowed_ports": [53, 80, 443]
+  }
+}

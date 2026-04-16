@@ -1,0 +1,69 @@
+/* PhantomOS Wofi Launcher — Mint Theme */
+
+window {
+  margin: 0;
+  border: 2px solid #26a269;
+  border-radius: 12px;
+  background-color: rgba(30, 30, 46, 0.95);
+  font-family: "Inter", "JetBrains Mono", sans-serif;
+  font-size: 14px;
+}
+
+#input {
+  margin: 8px 12px;
+  padding: 10px 16px;
+  border: none;
+  border-bottom: 2px solid #26a269;
+  border-radius: 8px;
+  background-color: rgba(45, 45, 45, 0.9);
+  color: #f5f5f5;
+  font-size: 15px;
+  outline: none;
+}
+
+#input:focus {
+  border-bottom-color: #2ec27e;
+  box-shadow: 0 2px 8px rgba(38, 162, 105, 0.3);
+}
+
+#inner-box {
+  margin: 4px 8px;
+  padding: 4px;
+}
+
+#outer-box {
+  margin: 0;
+  padding: 8px;
+}
+
+#scroll {
+  margin: 0;
+  padding: 0;
+}
+
+#text {
+  margin: 0;
+  padding: 8px 12px;
+  color: #f5f5f5;
+}
+
+#text:selected {
+  color: #111111;
+}
+
+#entry {
+  padding: 4px;
+  margin: 2px 4px;
+  border-radius: 8px;
+  transition: all 0.15s ease;
+}
+
+#entry:selected {
+  background-color: #26a269;
+  color: #111111;
+  border-radius: 8px;
+}
+
+#entry:hover {
+  background-color: rgba(46, 194, 126, 0.15);
+}

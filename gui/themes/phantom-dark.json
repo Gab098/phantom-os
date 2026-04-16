@@ -1,0 +1,32 @@
+{
+  "name": "phantom-dark",
+  "version": "0.1.0",
+  "author": "PhantomOS Team",
+  "colors": {
+    "bg_primary": "#0D0D14",
+    "bg_secondary": "#1A1A2E",
+    "fg_primary": "#E0E0E0",
+    "fg_secondary": "#8888AA",
+    "accent": "#00FFAA",
+    "accent_alt": "#00CC88",
+    "warning": "#FFB800",
+    "error": "#FF2255",
+    "success": "#00FFAA"
+  },
+  "fonts": {
+    "ui": "Inter, sans-serif",
+    "mono": "JetBrains Mono, monospace"
+  },
+  "borders": {
+    "radius": "6px",
+    "width": "1px"
+  },
+  "spacing": {
+    "base": "8px",
+    "padding": "12px"
+  },
+  "effects": {
+    "shadow": "0 4px 16px rgba(0, 255, 170, 0.08)",
+    "transitions": "0.2s ease"
+  }
+}
